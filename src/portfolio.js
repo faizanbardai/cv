@@ -25,16 +25,17 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
+  title: "WHAT I DO",
+  subTitle:
+    "I LIKE TO ENGINEER STUFF BUT WITHIN THE CONSTRAINTS OF TIME, COST, & RESOURCES",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Using MongoDB as a general purpose, document-based, distributed database"
     ),
+    emoji("⚡ Creating application backend in Node & Express"),
   ],
 
   /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -50,10 +51,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt",
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass",
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js",
     },
@@ -66,32 +63,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node",
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift",
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm",
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database",
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws",
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire",
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python",
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker",
     },
   ],
 };
@@ -102,8 +75,12 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
+      Stack: "Project Co-ordination", //Insert stack or technology you have experience in
+      progressPercentage: "80%", //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Frontend/Design",
+      progressPercentage: "70%",
     },
     {
       Stack: "Backend",
