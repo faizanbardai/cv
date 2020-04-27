@@ -10,19 +10,18 @@ export default function StackProgress() {
         <div className="skills-container">
           <div className="skills-bar">
             <h1 className="skills-heading">Proficiency</h1>
-            {techStack.experience.map((exp) => {
-              const progressStyle = {
-                width: exp.progressPercentage,
-              };
-              return (
-                <div className="skill">
-                  <p>{exp.Stack}</p>
-                  <div className="meter">
-                    <span style={progressStyle}></span>
-                  </div>
+            {techStack.experience.map((exp, index) => (
+              <div key={index} className="skill">
+                <p>{exp.Stack}</p>
+                <div className="meter">
+                  <span
+                    style={{
+                      width: exp.progressPercentage,
+                    }}
+                  ></span>
                 </div>
-              );
-            })}
+              </div>
+            ))}
           </div>
 
           <div className="skills-image">
