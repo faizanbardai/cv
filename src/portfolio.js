@@ -10,7 +10,8 @@ const greeting = {
   subTitle: emoji(
     "Full Stack Software Developer + Engineer + MBA in IT Management 🚀"
   ),
-  resumeLink: "https://www.google.com",
+  resumeLink:
+    "https://drive.google.com/file/d/1kH3fGUNjQwLL1zB4vknfD24idgiack7J/view?usp=sharing",
 };
 
 // Your Social Media Link
